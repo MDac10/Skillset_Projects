@@ -6,7 +6,7 @@ import java.util.*;
 
 public class FindLargestNumber {
     public static Integer findLargestNumber(List<Integer> nums){
-        Integer largest = nums.get(0);
+        int largest = nums.get(0);
         for (int i : nums){
             if (i > largest) { 
                 largest = i;
