@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Queue Extension",
+  "version": "1.0",
+  "description": "Manage a queue of pages to visit later",
+  "permissions": ["storage", "activeTab", "tabs"],
+  "action": {
+    "default_popup": "queue.html",
+    "default_icon": "chamomile.png"
+  }
+}
