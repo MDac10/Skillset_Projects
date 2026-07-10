@@ -18,14 +18,6 @@ function App() {
   //   </div>
   // );
 
-  // return (
-  //   <div>
-  //     <Alert>
-  //       Hello from an alert
-  //     </Alert>
-  //   </div>
-  // )
-
   const [alertVisible, setAlertVisibility] = useState(false);
 
   return (
